@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: pink;
+}
+
+nav{
+  border: 1px solid lightblue;
+  padding: 10px;
+  text-align: center;
+  background-color: aqua;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.home, .cart{
+  list-style: none;
+  font-size: 24px;
+  color: rgb(188, 236, 132);
+}
+
+.home{
+  float: left;
+  margin-left: 20%;
+}
+
+.Homepage{
+  text-align: center;
+  background-color: rgb(167, 167, 189);
+  margin-top: 0%;
+  padding-top: 30px;
+  margin-bottom: 0%;
+  height: 100px;
+}
+
+.page-container{
+  width: 80%;
+  margin: 10px auto;
+  background-color: white;
+  padding: 32px;
+}
+
+.product-listing{
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-listing .product-list-item{
+  padding: 10px 30px;
+  width: 300px; 
+}
+
+.AddButton,.DeleteButton{
+  padding: 10px;
+  border: none;
+  color: white;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.AddButton{
+  background-color: blueviolet;
+  margin-top: 5%;
+}
+
+.DeleteButton{
+  background-color: red;
+}
+
+.ProductName{
+  background-color: rgb(33, 44, 30);
+  padding: 10px;
+  color: rgb(110, 178, 218);
+  height: 70px;
+}
+
+.ProductImage{
+  width: 100%;
+  height: 150px;
+}
+
+.ProductDescription{
+  height: 210px;
+  text-align: justify;
+  margin-top: 5%;
+}
+
+.Price{
+  padding: 10px;
+  color: white;
+  background-color: rgb(80, 211, 57);
+}

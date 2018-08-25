@@ -1,0 +1,39 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "M-16 – 1963",
+        "description": "Based on the AR-10 designed by Eugene Stoner, the M-16 and its variants started the “modern sporting rifle” craze, and it remains in use by militaries all over the world. It was officially adopted by the U.S. military in 1969 (although it was in use as early as 1963), and the AR platform remains very popular among civilian shooters today.",
+        "image": "1-gun.jpg",
+        "price": 999
+      },
+      {
+        "id": 2,
+        "name": "Ruger 10/22 – 1964",
+        "description": "First introduced in 1964, the Ruger 10/22 is chambered for the .22 Long Rifle rimfire cartridge and is the standard by which all other .22 rifles are judged.",
+        "image": "2-gun.jpg",
+        "price": 1200
+      },
+      {
+        "id": 3,
+        "name": "Remington 700 – 1962",
+        "description": "The Remington 700, designed from the ground up to be a mass produced weapon, is one of the most popular bolt action rifles available today. It enjoys great popularity with civilian as well as military and police shooters worldwide and is one of the most accurate out-of-the-box rifles ever.",
+        "image": "3-gun.jpg",
+        "price": 1400
+      },
+      {
+        "id": 4,
+        "name": "M-14 – 1959",
+        "description": "The M-14 began replacing the M1 Garand as early as 1959, and stands as America’s last true “battle rifle” (standard issue rifle firing a full-power rifle cartridge). It remains a well-loved weapon that still sees limited use today.",
+        "image": "4-gun.jpg",
+        "price": 2000
+      },
+      {
+        "id": 5,
+        "name": "Benelli Black Eagle – 1991",
+        "description": "Back in 1991, little-known gun company Benelli introduced an autoloading shotgun with their inertia-driven system; the world of autoloading shotguns hasn’t been the same since.",
+        "image": "5-gun.jpg",
+        "price": 3000
+      }
+    ]
+  }
